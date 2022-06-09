@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container w-auto">
         <div class="row justify-content-center">
             <card class="card-car" v-for="contact in contacts" :key="contact.id" :contact="contact" />
         </div>
@@ -31,6 +31,9 @@ export default {
 </script>
 
 <style scoped>
+.container {
+    padding: 1.5rem;
+}
 .card-car {
     margin: 10px;
 }
