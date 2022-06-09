@@ -1,9 +1,9 @@
 <template>
-    <!-- Footer -->
+    <!-- Comienzo del Footer -->
     <div class="footer bg-dark text-center">
-        <!-- Grid container -->
+        <!-- Contenedor Grid -->
         <div class="container p-1">
-            <!-- Section: Social media -->
+            <!-- Sección de RRSS -->
             <section>
                 <!-- Linkedin -->
                 <a class="btn btn-outline-light btn-floating m-1"
@@ -14,17 +14,17 @@
                 <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/aperezbelldvp"
                     role="button"><i class="bi bi-github"></i></a>
             </section>
-            <!-- Section: Social media -->
+            <!-- Fin Sección RRSS -->
         </div>
-        <!-- Grid container -->
+        <!-- Fin contenedor Grid -->
 
         <!-- Copyright -->
         <div class="text-center p-3 text-white footer-copy">
             &copy;Álvaro Pérez Bellón | <a href="mailto:alvaroperezbellon@gmail.com">📩 alvaroperezbellon@gmail.com</a>
         </div>
-        <!-- Copyright -->
+        <!-- Fin Copyright -->
     </div>
-    <!-- Footer -->
+    <!-- Fin Footer -->
 </template>
 
 <script>
