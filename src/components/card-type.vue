@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <p v-if="contact.role" class="contact-type" :class="contact.role == 'comprador' ? 'comprador' : 'vendedor'">{{ contact.role }}</p>
-        <p v-else class="contact-type" style="background: red">Desconocido</p>
+        <p v-else class="contact-type" style="background: lightcoral">Desconocido</p>
     </div>
 </template>
 

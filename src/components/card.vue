@@ -4,7 +4,7 @@
         <img class="card-img-top p-4" :src="contact.image"
             :alt="`Image of a car ${contact.car_make}-${contact.car_model}`">
         <div class="card-body">
-            <h6 class="card-title">{{ contact.first_name }} {{ contact.last_name }}</h6>
+            <h5 class="card-title">{{ contact.first_name }} {{ contact.last_name }}</h5>
             <CardType :contact="contact" />
             <div class="car-info" v-if="contact.car_make && contact.car_model">
                 <p class="card-text">{{ contact.car_make }}</p>
@@ -54,6 +54,10 @@ img {
     height: 150px;
     width: 250px;
     object-fit: scale-down;
+}
+
+.card-text {
+    font-family: sans-serif;
 }
 
 .vertical-line {
