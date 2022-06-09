@@ -1,5 +1,6 @@
 <template>
-    <div class="card bg-light text-center col-12 col-md-5 col-lg-4 col-xl-3" v-if="contact.first_name && contact.last_name">
+    <div class="card bg-light text-center col-12 col-md-5 col-lg-4 col-xl-3"
+        v-if="contact.first_name && contact.last_name">
         <img class="card-img-top p-4" :src="contact.image"
             :alt="`Image of a car ${contact.car_make}-${contact.car_model}`">
         <div class="card-body">
@@ -47,6 +48,14 @@ button {
     border-top: 1px solid #CCD1D1;
     padding: 1rem;
 }
+
+img {
+    margin: auto;
+    height: 150px;
+    width: 250px;
+    object-fit: scale-down;
+}
+
 .vertical-line {
     border-left: solid 1px #CCD1D1;
     margin: 0;
