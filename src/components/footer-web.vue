@@ -27,12 +27,6 @@
     <!-- Fin Footer -->
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
 <style scoped>
 a {
     text-decoration: none;

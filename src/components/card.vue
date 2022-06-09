@@ -23,10 +23,10 @@
 
         <!-- Card Footer -->
         <div class="row row-cols-2">
-            <button class="col" @click="mail">
+            <button class="col" :disabled="!contact.email" @click="mail">
                 <i class="bi bi-envelope-fill"></i> Email
             </button>
-            <button class="col vertical-line" @click="call">
+            <button class="col vertical-line" :disabled="!contact.phone" @click="call">
                 <i class="bi bi-telephone-fill"></i> Call
             </button>
         </div>
