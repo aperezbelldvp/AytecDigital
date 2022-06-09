@@ -21,9 +21,11 @@
         <!-- Fin contenedor Grid -->
 
         <!-- Copyright -->
-        <div class="text-center p-3 text-white footer-copy">
-            &copy;Álvaro Pérez Bellón | 
-            <a href="mailto:alvaroperezbellon@gmail.com">📩 alvaroperezbellon@gmail.com</a>
+        <div class="text-center p-3 text-white footer-copy d-flex justify-content-between">
+            <p>&copy;Álvaro Pérez Bellón</p>   
+            <p>
+                <a href="mailto:alvaroperezbellon@gmail.com">📩 alvaroperezbellon@gmail.com</a>
+            </p>         
         </div>
         <!-- Fin Copyright -->
     </div>
