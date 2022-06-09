@@ -23,6 +23,7 @@
 
         <!-- Card Footer -->
         <div class="row row-cols-2">
+            <!-- Desactivamos el botón si no tiene email o telf -->
             <button class="col" :disabled="!contact.email" @click="mail">
                 <i class="bi bi-envelope-fill"></i> Email
             </button>

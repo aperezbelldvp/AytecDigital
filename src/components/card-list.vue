@@ -1,7 +1,11 @@
 <template>
     <div class="container w-auto">
         <div class="row justify-content-center animate__animated animate__backInDown">
-            <card class="card-car" v-for="contact in contacts" :key="contact.id" :contact="contact" />
+            <card 
+            class="card-car" 
+            v-for="contact in contacts" 
+            :key="contact.id" 
+            :contact="contact" />
         </div>
     </div>
 </template>

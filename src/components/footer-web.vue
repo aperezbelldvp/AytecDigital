@@ -8,11 +8,13 @@
                 <!-- Linkedin -->
                 <a class="btn btn-outline-light btn-floating m-1"
                     href="https://es.linkedin.com/in/%C3%A1lvaro-p%C3%A9rez-bell%C3%B3n-81a050147?trk=public_profile_browsemap"
-                    role="button"><i class="bi bi-linkedin"></i></a>
-
+                    role="button"><i class="bi bi-linkedin"></i>
+                </a>
                 <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/aperezbelldvp"
-                    role="button"><i class="bi bi-github"></i></a>
+                <a class="btn btn-outline-light btn-floating m-1" 
+                    href="https://github.com/aperezbelldvp"
+                    role="button"><i class="bi bi-github"></i>
+                </a>
             </section>
             <!-- Fin Sección RRSS -->
         </div>
@@ -20,7 +22,8 @@
 
         <!-- Copyright -->
         <div class="text-center p-3 text-white footer-copy">
-            &copy;Álvaro Pérez Bellón | <a href="mailto:alvaroperezbellon@gmail.com">📩 alvaroperezbellon@gmail.com</a>
+            &copy;Álvaro Pérez Bellón | 
+            <a href="mailto:alvaroperezbellon@gmail.com">📩 alvaroperezbellon@gmail.com</a>
         </div>
         <!-- Fin Copyright -->
     </div>
